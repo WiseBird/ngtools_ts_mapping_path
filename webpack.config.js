@@ -30,6 +30,9 @@ module.exports = {
             '.html',
             '.scss',
         ],
+        alias: {
+            "lib": path.resolve('./lib'),
+        }
     },
     resolveLoader: {
         modules: [

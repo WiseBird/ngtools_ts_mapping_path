@@ -4,7 +4,7 @@ import {LibComponent} from 'lib/lib.component';
 @Component({
                selector: 'app-root',
                templateUrl: './app.component.html',
-               styleUrls: ['./app.component.css']
+               styleUrls: ['lib/lib.component.css']
            })
 export class AppComponent extends LibComponent {
     title = 'app component!';
